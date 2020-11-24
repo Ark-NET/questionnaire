@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="panelAuthorization">
+
+        <div class="HeadTitle">
+            <span>анкета</span>
+        </div>
+        <div class="button">
+            <label for="#" id="apruved"></label>
+        </div>
+        <form action="logo" method="POST">
+
+            <table>
+                <tr>
+                    <td>
+                        <label for="nameUser" id="nameLabel">Имя*: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="nameUser" placeholder="Имя">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lastNameUser" id="lastNameLabel">Фамилия*: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="lastNameUser" placeholder="Фамилия">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email" id="emailLabel">@mail*: </label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" placeholder="@mail">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dateBirthday" id="BDateLabel">Дата рождения: </label>
+                    </td>
+                    <td>
+                        <input type="date" id="dateBirthday">
+                    </td>
+                    <td>
+                        <label for="#" id="warningBDate"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="#" id="sexLabel">Пол: </label>
+                    </td>
+                    <td>
+                        <label for="checkMan">Мужской:</label>
+                        <input type="radio" id="checkMan" name="check">
+                    </td>
+                    <td>
+                        <label for="checkWoman">Женский:</label>
+                        <input type="radio" id="checkWoman" name="check">
+                    </td>
+                </tr>
+
+                <tr id="technology">
+                    <td>
+                        <tr>
+                            <td>
+                                <label for="#" id="techLabel">Список технологий: </label>
+                            </td>
+                            <td>
+                                <label for="#" id="textWarningTech"></label>
+                            </td>
+                        </tr>
+                    </td>
+                    <td>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="C#" class="tech">
+                                <label for="C#" class="techText">C#</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="JS" class="tech">
+                                <label for="JS" class="techText">JavaScript</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="Angul" class="tech">
+                                <label for="Angul" class="techText">Angular</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="C++" class="tech">
+                                <label for="C++" class="techText">C++</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="php" class="tech">
+                                <label for="php" class="techText">php</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="phyton" class="tech">
+                                <label for="phyton" class="techText">Phyton</label>
+                            </td>
+                        </tr>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="button">
+                <button type="submit">отправить</button>
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
